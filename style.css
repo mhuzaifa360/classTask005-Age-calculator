@@ -11,12 +11,39 @@ body{
     background: #0f0fe8;
 }
 .container{
-    width: 400px;
-    height: 300px;
-    background: #d2cfcf;
+    width: 600px;
+    height: 500px;
+    border: 2px solid #d2cfcf;
+    /* background: ; */
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 
+}
+.calendar-section{
+    background: #000;
+    width: 90%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.calendar-section input{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+    
+}
+.calendar-section button{
+    width: 25%;
+    height: 55px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
 }
