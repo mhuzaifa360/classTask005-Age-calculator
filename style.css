@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     background: #0f0fe8;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     width: 600px;
@@ -29,7 +30,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-
+    
 }
 .calendar-section input{
     width: 50%;
@@ -46,4 +47,32 @@ body{
     border-radius: 10px;
     font-size: 20px;
     font-weight: 600;
+}
+.output{
+    width: 90%;
+    height: 150px;
+    /* background: #000; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    
+    
+}
+.output .card{
+    background: #000;
+    color: white;
+    width: 120px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+.output .card p{
+    color: #bbbaba;
+    
 }
